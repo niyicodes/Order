@@ -8,9 +8,9 @@ import {
 import React from "react";
 import Img1 from "../assets/images/food.png";
 
-const Category = ({width=200}) => {
+const Category = ({className}) => {
   return (
-    <Card sx={{ width: width, borderTopRadius:5}}>
+    <Card sx={{borderTopRadius:5, minWidth:'200px'}} className={className}>
       <CardActionArea>
         <CardMedia component="img" height="95%" image={Img1} alt="image" />
         <CardContent sx={{height:'auto', display:'flex', flexDirection:'column', backgroundColor:'#03081F', color:"whitesmoke"}}>

@@ -24,3 +24,14 @@ html, body{
 .cart-area{
   @apply bg-[#028643] text-white px-4 flex gap-4 justify-evenly items-center h-auto
 }
+
+.search-icon{
+  display:block;
+  background-color:black;
+  color: #FC8A06;
+  border-radius:100%;
+
+  @media(min-width: 768px){
+    display:none
+  }
+}
